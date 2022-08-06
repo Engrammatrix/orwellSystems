@@ -1,0 +1,4 @@
+opencv-python
+numpy
+matplotlib
+ascii_magic

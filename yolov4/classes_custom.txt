@@ -1,0 +1,9 @@
+Human head
+Vehicle registration plate
+Car
+Van
+Truck
+Motorcycle
+Bus
+Weapon
+Person
