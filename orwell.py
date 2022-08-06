@@ -222,8 +222,8 @@ if __name__ == '__main__':
                         # put all the points in this 2D array
                         cropped = crop(img,x,y,bottom,right,str(classes[class_id]))
                         if cropped is not None and cropped.size != 0:
-                            Path('./database/{0}'.format(str(classes[class_id]))).mkdir(parents=True, exist_ok=True)
-                            title = './database/{0}/id{1}.png'.format(str(classes[class_id]), id_num)
+                            Path('./output_database/{0}'.format(str(classes[class_id]))).mkdir(parents=True, exist_ok=True)
+                            title = './output_database/{0}/id{1}.png'.format(str(classes[class_id]), id_num)
                             cv2.imwrite(title, cropped)
                         id_num = id_num + 1
                     
